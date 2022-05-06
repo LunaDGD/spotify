@@ -1,0 +1,56 @@
+* {
+  transition: all 0.3s ease 0s;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  text-align: center;
+  background-color: #383535;
+  color: #1db954;
+  box-sizing: border-box;
+}
+
+button {
+  margin: 50px;
+  border: none;
+  border-radius: 5px;
+  width: 100px;
+  height: 25px;
+  cursor: pointer;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+button:hover {
+  width: 102px;
+  height: 27px;
+  background: #1db954;
+  color: #fff;
+}
+
+.playlist {
+  /* border: 3px solid white; */
+  padding: 50px;
+}
+
+.playlist ul {
+  display: flex;
+  padding: 50px;
+  line-height: 5em;
+}
+
+.playlist ul li {
+  list-style: none;
+}
+.side1 {
+  flex-basis: 50%;
+}
+.side2 {
+  flex-basis: 50%;
+}
+.hidden {
+  display: none;
+}
+.fa-spotify {
+  margin-top: 50px;
+  font-size: 70px;
+}
